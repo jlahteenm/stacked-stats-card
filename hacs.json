@@ -10,5 +10,6 @@
   "iot_class": "Local Polling",
   "persistent_directory": false,
   "zip_release": false,
-  "experimental": true
+  "experimental": true,
+  "icon": "stacked-stats-card.svg"
 }
