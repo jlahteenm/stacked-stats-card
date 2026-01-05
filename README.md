@@ -33,4 +33,41 @@ The card uses local time, zero-fills missing data, supports navigation (back/for
 ## 📦 Installation (HACS)
 
 1. Go to **HACS → Custom Repositories**
-2. Add this repository:
+2. Add this repository: https://github.com/jlahteenm/stacked-stats-card
+3. Category: **Frontend**
+4. Install the card
+5. Add this to your dashboard resources: /hacsfiles/stacked-stats-card/stacked-stats-card.js
+ 
+---
+
+## 🧩 Example Configuration
+
+```yaml
+type: custom:stacked-stats-card
+title: Energy Usage
+entities:
+- entity: sensor.house_energy_kwh
+- entity: sensor.heat_pump_kwh
+- entity: sensor.water_heater_kwh
+```
+---
+
+## 📝 Notes
+- Hour mode shows the last 24 hours.
+- Day mode shows the last 7 days ending today.
+- Week mode shows the last 5 ISO weeks.
+- Month mode shows the last 13 months.
+- All buckets are zero-filled to ensure alignment.
+- Colors are auto-generated unless overridden.
+
+---
+
+## 🤝 Contributing
+- This project is experimental.
+- Bug reports, ideas, and pull requests are welcome.
+
+---
+
+## 📄 License
+- MIT
+
