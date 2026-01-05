@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / tooling (future-proof)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (if bundling later)
+dist/*.map
+
+# Editor settings
+.vscode/
+.idea/
