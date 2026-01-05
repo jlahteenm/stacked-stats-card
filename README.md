@@ -54,6 +54,18 @@ entities:
 - entity: sensor.heat_pump_kwh
 - entity: sensor.water_heater_kwh
 ```
+
+---
+
+## ⚙️ Configuration Options
+
+The card currently has no optional configuration parameters beyond:
+
+- `title`
+- `entities`
+
+More options will be added in future releases as the project evolves.
+
 ---
 
 ## 📝 Notes
@@ -63,6 +75,16 @@ entities:
 - Month mode shows the last 13 months.
 - All buckets are zero-filled to ensure alignment.
 - Colors are auto-generated unless overridden.
+
+---
+
+## ⚠️ Known Issues
+
+- Week mode uses ISO weeks (Mon–Sun) and is not yet configurable.
+- Sensors without units may display inconsistently depending on Home Assistant’s history API.
+- Very large datasets (hundreds of entities or long history windows) may cause slow rendering on older devices.
+- Chart.js tooltips may overlap on very dense data.
+- Navigation beyond available history is currently clamped but not visually indicated.
 
 ---
 
