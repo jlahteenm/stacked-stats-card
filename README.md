@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://raw.githubusercontent.com/jlahteenm/stacked-stats-card/main/dist/stacked-stats-card.svg" width="128" />
 </p>
 
@@ -18,6 +18,14 @@ The card uses local time, zero-fills missing data, supports navigation (back/for
 > **Status:** Experimental  
 > This card works reliably in my own setup, but may still have edge cases.  
 > Feedback and PRs are welcome.
+
+---
+
+## 📸 Screenshot
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/jlahteenm/stacked-stats-card/dev/docs/Screenshot 2026-01-05 132109.png" width="400" />
+</p>
 
 ---
 
