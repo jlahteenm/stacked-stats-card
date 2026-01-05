@@ -1,0 +1,14 @@
+{
+  "name": "Stacked Stats Card",
+  "content_in_root": false,
+  "filename": "stacked-stats-card.js",
+  "render_readme": true,
+  "hide_default_branch": false,
+  "domains": [],
+  "country": [],
+  "homeassistant": "2024.1.0",
+  "iot_class": "Local Polling",
+  "persistent_directory": false,
+  "zip_release": false,
+  "experimental": true
+}
