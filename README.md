@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jlahteenm/stacked-stats-card/main/dist/stacked-stats-card.svg" width="128" />
+</p>
+
 # Stacked Stats Card (Experimental)
 
 A clean, lightweight, stacked multi-period statistics card for Home Assistant.
